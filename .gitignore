@@ -2,7 +2,7 @@
 *.py~
 .DS_Store
 conf.py
-locale
+*.mo
 latest_updates.json
 .wnf-lang-status
 *.egg-info
