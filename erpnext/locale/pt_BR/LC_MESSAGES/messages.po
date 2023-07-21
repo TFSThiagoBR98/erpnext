@@ -8,41 +8,47 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-07-17 20:16+0000\n"
-"Last-Translator: info@erpnext.com\n"
-"Language-Team: info@erpnext.com\n"
+"PO-Revision-Date: 2023-07-22 16:08+0000\n"
+"Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
+"Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
+"erpnext/pt_BR/>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.2\n"
 "Generated-By: Babel 2.12.1\n"
 
 #. Label of a Column Break field in DocType 'Email Digest'
 #: setup/doctype/email_digest/email_digest.json
 msgctxt "Email Digest"
 msgid "  "
-msgstr ""
+msgstr "  "
 
 #: accounts/report/item_wise_sales_register/item_wise_sales_register.py:596
 msgid " Amount"
-msgstr ""
+msgstr " Valor"
 
 #. DocType: Inventory Dimension:1
 msgid " Is Child Table"
-msgstr ""
+msgstr " É uma Tabela Filho"
 
 #. Label of a Check field in DocType 'Inventory Dimension'
 #: stock/doctype/inventory_dimension/inventory_dimension.json
 msgctxt "Inventory Dimension"
 msgid " Is Child Table"
-msgstr ""
+msgstr " É uma Tabela Filho"
 
 #: templates/includes/cart/cart_payment_summary.html:14
+#, fuzzy
 msgid " Items)"
-msgstr ""
+msgstr " Itens)"
 
 #: selling/report/sales_analytics/sales_analytics.py:66
+#, fuzzy
 msgid " Name"
-msgstr ""
+msgstr " Nome"
 
 #. DocType: Mpesa Settings:1
 msgid " Online PassKey"
@@ -55,12 +61,14 @@ msgid " Online PassKey"
 msgstr " Senha Online"
 
 #: accounts/report/item_wise_sales_register/item_wise_sales_register.py:587
+#, fuzzy
 msgid " Rate"
-msgstr ""
+msgstr " Taxa"
 
 #: projects/doctype/project_update/project_update.py:91
+#, fuzzy
 msgid " Summary"
-msgstr ""
+msgstr " Resumo"
 
 #: stock/doctype/item/item.py:138
 msgid "\"Customer Provided Item\" cannot be Purchase Item also"
@@ -79,150 +87,163 @@ msgstr ""
 "Ativo relacionado ao item"
 
 #: manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
+#, fuzzy
 msgid "# In Stock"
-msgstr ""
+msgstr "# Em estoque"
 
 #: manufacturing/report/work_order_stock_report/work_order_stock_report.py:141
+#, fuzzy
 msgid "# Req'd Items"
-msgstr ""
+msgstr "# Número de itens necessários"
 
 #. DocType: Sales Order:1
 msgid "%  Delivered"
-msgstr ""
+msgstr "%  Entregue"
 
 #. Label of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
+#, fuzzy
 msgctxt "Sales Order"
 msgid "%  Delivered"
-msgstr ""
+msgstr "%  Entregue"
 
 #. DocType: Timesheet:1
+#, fuzzy
 msgid "% Amount Billed"
-msgstr ""
+msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Delivery Note'
 #: stock/doctype/delivery_note/delivery_note.json
+#, fuzzy
 msgctxt "Delivery Note"
 msgid "% Amount Billed"
-msgstr ""
+msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Purchase Receipt'
 #: stock/doctype/purchase_receipt/purchase_receipt.json
+#, fuzzy
 msgctxt "Purchase Receipt"
 msgid "% Amount Billed"
-msgstr ""
+msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
+#, fuzzy
 msgctxt "Sales Order"
 msgid "% Amount Billed"
-msgstr ""
+msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Timesheet'
 #: projects/doctype/timesheet/timesheet.json
 msgctxt "Timesheet"
 msgid "% Amount Billed"
-msgstr ""
+msgstr "% Valor faturado"
 
 #. DocType: Purchase Order:1
+#, fuzzy
 msgid "% Billed"
-msgstr ""
+msgstr "% Faturado"
 
 #. Label of a Percent field in DocType 'Purchase Order'
 #: buying/doctype/purchase_order/purchase_order.json
 msgctxt "Purchase Order"
 msgid "% Billed"
-msgstr ""
+msgstr "% Faturado"
 
 #. DocType: Project:1
 msgid "% Complete Method"
-msgstr ""
+msgstr "% de Métodos Completados"
 
 #. Label of a Select field in DocType 'Project'
 #: projects/doctype/project/project.json
+#, fuzzy
 msgctxt "Project"
 msgid "% Complete Method"
-msgstr ""
+msgstr "% de Métodos Completados"
 
 #. DocType: Project:1
 msgid "% Completed"
-msgstr ""
+msgstr "% Concluído"
 
 #. Label of a Percent field in DocType 'Project'
 #: projects/doctype/project/project.json
 msgctxt "Project"
 msgid "% Completed"
-msgstr ""
+msgstr "% Concluído"
 
 #: manufacturing/doctype/bom/bom.js:755
 #, python-format
 msgid "% Finished Item Quantity"
-msgstr ""
+msgstr "% da Quantidade de itens terminados"
 
 #. DocType: Delivery Note:1
 msgid "% Installed"
-msgstr ""
+msgstr "% Instalado"
 
 #. Label of a Percent field in DocType 'Delivery Note'
 #: stock/doctype/delivery_note/delivery_note.json
 msgctxt "Delivery Note"
 msgid "% Installed"
-msgstr ""
+msgstr "% Instalado"
 
 #: stock/page/warehouse_capacity_summary/warehouse_capacity_summary.js:70
 msgid "% Occupied"
-msgstr ""
+msgstr "% Ocupado"
 
 #: accounts/report/item_wise_purchase_register/item_wise_purchase_register.py:280
 #: accounts/report/item_wise_sales_register/item_wise_sales_register.py:325
 msgid "% Of Grand Total"
-msgstr ""
+msgstr "% do Total Geral"
 
 #. DocType: Material Request:1
 msgid "% Ordered"
-msgstr ""
+msgstr "% de Pedidos"
 
 #. Label of a Percent field in DocType 'Material Request'
 #: stock/doctype/material_request/material_request.json
+#, fuzzy
 msgctxt "Material Request"
 msgid "% Ordered"
-msgstr ""
+msgstr "% de Pedidos"
 
 #. DocType: Sales Order:1
 msgid "% Picked"
-msgstr ""
+msgstr "% Escolhidos"
 
 #. Label of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
 msgctxt "Sales Order"
 msgid "% Picked"
-msgstr ""
+msgstr "% Escolhidos"
 
 #. DocType: BOM:1
+#, fuzzy
 msgid "% Process Loss"
-msgstr ""
+msgstr "% de perda no processo"
 
 #. Label of a Percent field in DocType 'BOM'
 #: manufacturing/doctype/bom/bom.json
+#, fuzzy
 msgctxt "BOM"
 msgid "% Process Loss"
-msgstr ""
+msgstr "% de perda no processo"
 
 #. Label of a Percent field in DocType 'Stock Entry'
 #: stock/doctype/stock_entry/stock_entry.json
+#, fuzzy
 msgctxt "Stock Entry"
 msgid "% Process Loss"
-msgstr ""
+msgstr "% de perda no processo"
 
 #. DocType: Task:1
 msgid "% Progress"
-msgstr ""
+msgstr "% de progresso"
 
 #. Label of a Percent field in DocType 'Task'
 #: projects/doctype/task/task.json
 msgctxt "Task"
 msgid "% Progress"
-msgstr ""
+msgstr "% de progresso"
 
 #. DocType: Purchase Order:1
 msgid "% Received"
@@ -976,7 +997,7 @@ msgstr ""
 
 #. DocType: Bank Statement Import:1
 msgid "<h5 class=\"text-muted uppercase\">Or</h5>"
-msgstr ""
+msgstr "<h5 class=\"text-muted uppercase\">Ou</h5>"
 
 #. Content of an HTML field in DocType 'Bank Statement Import'
 #: accounts/doctype/bank_statement_import/bank_statement_import.json
@@ -30176,7 +30197,7 @@ msgstr "Número do Colaborador"
 
 #. DocType: Account:1
 msgid "Employee Self Service"
-msgstr ""
+msgstr "Autoatendimento para funcionários"
 
 #. DocType: Call Log:1
 msgid "Employee User Id"
@@ -68580,7 +68601,7 @@ msgstr "Detalhe de Referência Nº"
 
 #. DocType: Payment Request:1
 msgid "Reference Doctype"
-msgstr "DocType de Referência"
+msgstr "Tipo de Documento de Referência"
 
 #. Label of a Link field in DocType 'Payment Request'
 #: accounts/doctype/payment_request/payment_request.json
@@ -75219,7 +75240,7 @@ msgstr ""
 
 #. DocType: Rename Tool:1
 msgid "Select DocType"
-msgstr "Selecione DocType"
+msgstr "Selecione Tipo de Documento"
 
 #. Label of a Select field in DocType 'Rename Tool'
 #: utilities/doctype/rename_tool/rename_tool.json
@@ -97516,4 +97537,3 @@ msgstr ""
 #: accounts/doctype/party_link/party_link.py:26
 msgid "{} {} is already linked with {} {}"
 msgstr ""
-
