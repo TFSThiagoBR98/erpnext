@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-07-22 16:08+0000\n"
+"PO-Revision-Date: 2023-07-24 13:39+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -41,12 +41,10 @@ msgid " Is Child Table"
 msgstr " É uma Tabela Filho"
 
 #: templates/includes/cart/cart_payment_summary.html:14
-#, fuzzy
 msgid " Items)"
 msgstr " Itens)"
 
 #: selling/report/sales_analytics/sales_analytics.py:66
-#, fuzzy
 msgid " Name"
 msgstr " Nome"
 
@@ -61,12 +59,10 @@ msgid " Online PassKey"
 msgstr " Senha Online"
 
 #: accounts/report/item_wise_sales_register/item_wise_sales_register.py:587
-#, fuzzy
 msgid " Rate"
 msgstr " Taxa"
 
 #: projects/doctype/project_update/project_update.py:91
-#, fuzzy
 msgid " Summary"
 msgstr " Resumo"
 
@@ -87,12 +83,10 @@ msgstr ""
 "Ativo relacionado ao item"
 
 #: manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
-#, fuzzy
 msgid "# In Stock"
 msgstr "# Em estoque"
 
 #: manufacturing/report/work_order_stock_report/work_order_stock_report.py:141
-#, fuzzy
 msgid "# Req'd Items"
 msgstr "# Número de itens necessários"
 
@@ -102,33 +96,28 @@ msgstr "%  Entregue"
 
 #. Label of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
-#, fuzzy
 msgctxt "Sales Order"
 msgid "%  Delivered"
 msgstr "%  Entregue"
 
 #. DocType: Timesheet:1
-#, fuzzy
 msgid "% Amount Billed"
 msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Delivery Note'
 #: stock/doctype/delivery_note/delivery_note.json
-#, fuzzy
 msgctxt "Delivery Note"
 msgid "% Amount Billed"
 msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Purchase Receipt'
 #: stock/doctype/purchase_receipt/purchase_receipt.json
-#, fuzzy
 msgctxt "Purchase Receipt"
 msgid "% Amount Billed"
 msgstr "% Valor faturado"
 
 #. Label of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
-#, fuzzy
 msgctxt "Sales Order"
 msgid "% Amount Billed"
 msgstr "% Valor faturado"
@@ -140,7 +129,6 @@ msgid "% Amount Billed"
 msgstr "% Valor faturado"
 
 #. DocType: Purchase Order:1
-#, fuzzy
 msgid "% Billed"
 msgstr "% Faturado"
 
@@ -156,7 +144,6 @@ msgstr "% de Métodos Completados"
 
 #. Label of a Select field in DocType 'Project'
 #: projects/doctype/project/project.json
-#, fuzzy
 msgctxt "Project"
 msgid "% Complete Method"
 msgstr "% de Métodos Completados"
@@ -201,7 +188,6 @@ msgstr "% de Pedidos"
 
 #. Label of a Percent field in DocType 'Material Request'
 #: stock/doctype/material_request/material_request.json
-#, fuzzy
 msgctxt "Material Request"
 msgid "% Ordered"
 msgstr "% de Pedidos"
@@ -217,20 +203,17 @@ msgid "% Picked"
 msgstr "% Escolhidos"
 
 #. DocType: BOM:1
-#, fuzzy
 msgid "% Process Loss"
 msgstr "% de perda no processo"
 
 #. Label of a Percent field in DocType 'BOM'
 #: manufacturing/doctype/bom/bom.json
-#, fuzzy
 msgctxt "BOM"
 msgid "% Process Loss"
 msgstr "% de perda no processo"
 
 #. Label of a Percent field in DocType 'Stock Entry'
 #: stock/doctype/stock_entry/stock_entry.json
-#, fuzzy
 msgctxt "Stock Entry"
 msgid "% Process Loss"
 msgstr "% de perda no processo"
@@ -247,59 +230,59 @@ msgstr "% de progresso"
 
 #. DocType: Purchase Order:1
 msgid "% Received"
-msgstr ""
+msgstr "% Recebido"
 
 #. Label of a Percent field in DocType 'Material Request'
 #: stock/doctype/material_request/material_request.json
 msgctxt "Material Request"
 msgid "% Received"
-msgstr ""
+msgstr "% Recebido"
 
 #. Label of a Percent field in DocType 'Purchase Order'
 #: buying/doctype/purchase_order/purchase_order.json
 msgctxt "Purchase Order"
 msgid "% Received"
-msgstr ""
+msgstr "% Recebido"
 
 #. Label of a Percent field in DocType 'Subcontracting Order'
 #: subcontracting/doctype/subcontracting_order/subcontracting_order.json
 msgctxt "Subcontracting Order"
 msgid "% Received"
-msgstr ""
+msgstr "% Recebido"
 
 #. DocType: Delivery Note:1
 msgid "% Returned"
-msgstr ""
+msgstr "% Devolvido"
 
 #. Label of a Percent field in DocType 'Delivery Note'
 #: stock/doctype/delivery_note/delivery_note.json
 msgctxt "Delivery Note"
 msgid "% Returned"
-msgstr ""
+msgstr "% Devolvido"
 
 #. Label of a Percent field in DocType 'Purchase Receipt'
 #: stock/doctype/purchase_receipt/purchase_receipt.json
 msgctxt "Purchase Receipt"
 msgid "% Returned"
-msgstr ""
+msgstr "% Devolvido"
 
 #. Label of a Percent field in DocType 'Subcontracting Receipt'
 #: subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgctxt "Subcontracting Receipt"
 msgid "% Returned"
-msgstr ""
+msgstr "% Devolvido"
 
 #. DocType: Sales Order:1
 #, python-format
 msgid "% of materials billed against this Sales Order"
-msgstr ""
+msgstr "% de materiais faturados em relação a este Pedido de Vendas"
 
 #. Description of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
 #, python-format
 msgctxt "Sales Order"
 msgid "% of materials billed against this Sales Order"
-msgstr ""
+msgstr "% de materiais faturados em relação a este Pedido de Vendas"
 
 #. DocType: Sales Order:1
 #, python-format
@@ -2169,7 +2152,7 @@ msgstr "Detalhes da Conta"
 
 #. DocType: Advance Tax:1
 msgid "Account Head"
-msgstr "Conta"
+msgstr "Chefe de contas"
 
 #. Label of a Link field in DocType 'Advance Tax'
 #: accounts/doctype/advance_tax/advance_tax.json
@@ -23653,7 +23636,7 @@ msgstr "Resumo Diário Dos Registros de Tempo"
 #: crm/workspace/crm/crm.json projects/workspace/projects/projects.json
 #: selling/workspace/selling/selling.json stock/workspace/stock/stock.json
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel de Controle"
 
 #. Label of a Tab Break field in DocType 'Customer'
 #: selling/doctype/customer/customer.json
@@ -52327,7 +52310,7 @@ msgstr "Aviso Prévio ( Dias)"
 #: setup/workspace/erpnext_settings/erpnext_settings.json
 msgctxt "Notification"
 msgid "Notification"
-msgstr ""
+msgstr "Notificação"
 
 #. Label of a Link in the ERPNext Settings Workspace
 #: setup/workspace/erpnext_settings/erpnext_settings.json
@@ -66576,7 +66559,7 @@ msgstr "Aleatório"
 #: stock/report/stock_analytics/stock_analytics.js:76
 #: support/report/issue_analytics/issue_analytics.js:39
 msgid "Range"
-msgstr "Alcance"
+msgstr "Faixa"
 
 #. Label of a Data field in DocType 'Purchase Receipt'
 #: stock/doctype/purchase_receipt/purchase_receipt.json
@@ -79014,7 +78997,7 @@ msgstr "Pule a Transferência de Material Para o Wip Warehouse"
 
 #. DocType: Repost Item Valuation:1
 msgid "Skipped"
-msgstr ""
+msgstr "Ignorado"
 
 #. Option for a Select field in DocType 'Repost Item Valuation'
 #: stock/doctype/repost_item_valuation/repost_item_valuation.json
@@ -89620,7 +89603,7 @@ msgstr "Variância Total"
 
 #: utilities/report/youtube_interactions/youtube_interactions.py:70
 msgid "Total Views"
-msgstr ""
+msgstr "Total de visualizações"
 
 #. DocType: POS Invoice Item:1
 msgid "Total Weight"
