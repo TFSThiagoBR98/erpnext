@@ -1097,6 +1097,65 @@ msgid ""
 "</pre>\n"
 msgstr ""
 
+#. Workspace Header Text
+#: erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
+msgid "<span class=\"h4\"><b>Integrations</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: stock/workspace/stock/stock.json
+msgid "<span class=\"h4\"><b>Masters &amp; Reports</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: selling/workspace/selling/selling.json stock/workspace/stock/stock.json
+msgid "<span class=\"h4\"><b>Quick Access</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: assets/workspace/assets/assets.json
+#: quality_management/workspace/quality/quality.json
+msgid "<span class=\"h4\"><b>Reports & Masters</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: accounts/workspace/accounting/accounting.json
+#: buying/workspace/buying/buying.json crm/workspace/crm/crm.json
+#: manufacturing/workspace/manufacturing/manufacturing.json
+#: projects/workspace/projects/projects.json
+#: selling/workspace/selling/selling.json setup/workspace/home/home.json
+#: support/workspace/support/support.json
+msgid "<span class=\"h4\"><b>Reports &amp; Masters</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: setup/workspace/erpnext_settings/erpnext_settings.json
+msgid "<span class=\"h4\"><b>Settings</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: setup/workspace/erpnext_settings/erpnext_settings.json
+msgid ""
+"<span class=\"h4\"><b>Your Shortcuts\n"
+"\t\t\t\n"
+"\t\t\n"
+"\t\t\t\n"
+"\t\t\n"
+"\t\t\t\n"
+"\t\t</b></span>"
+msgstr ""
+
+#. Workspace Header Text
+#: accounts/workspace/accounting/accounting.json
+#: assets/workspace/assets/assets.json buying/workspace/buying/buying.json
+#: crm/workspace/crm/crm.json
+#: manufacturing/workspace/manufacturing/manufacturing.json
+#: projects/workspace/projects/projects.json
+#: quality_management/workspace/quality/quality.json
+#: setup/workspace/home/home.json support/workspace/support/support.json
+msgid "<span class=\"h4\"><b>Your Shortcuts</b></span>"
+msgstr ""
+
 #. DocType: Inventory Dimension:1
 msgid ""
 "<table class=\"table table-bordered table-condensed\">\n"
@@ -1841,6 +1900,7 @@ msgstr ""
 #: accounts/report/payment_ledger/payment_ledger.js:31
 #: accounts/report/payment_ledger/payment_ledger.py:145
 #: accounts/report/trial_balance/trial_balance.py:402
+#: accounts/report/trial_balance/trial_balance.py:405
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.js:70
 #: public/js/account_tree_grid.js:55
 #: stock/report/incorrect_stock_value_report/incorrect_stock_value_report.js:16
@@ -2474,7 +2534,7 @@ msgstr ""
 msgid "Account {0}: You can not assign itself as parent account"
 msgstr ""
 
-#: accounts/general_ledger.py:347
+#: accounts/general_ledger.py:344 accounts/general_ledger.py:347
 msgid ""
 "Account: <b>{0}</b> is capital Work in progress and can not be updated by"
 " Journal Entry"
@@ -3036,6 +3096,7 @@ msgid "Accounting Period"
 msgstr ""
 
 #: accounts/doctype/accounting_period/accounting_period.py:45
+#: accounts/doctype/accounting_period/accounting_period.py:49
 msgid "Accounting Period overlaps with {0}"
 msgstr ""
 
@@ -12918,7 +12979,7 @@ msgid ""
 " stock and account value."
 msgstr ""
 
-#: accounts/general_ledger.py:602
+#: accounts/general_ledger.py:599 accounts/general_ledger.py:602
 msgid "Books have been closed till the period ending on {0}"
 msgstr ""
 
@@ -14472,7 +14533,7 @@ msgstr ""
 msgid "Cannot create a Delivery Trip from Draft documents."
 msgstr ""
 
-#: accounts/general_ledger.py:72
+#: accounts/general_ledger.py:69 accounts/general_ledger.py:72
 msgid "Cannot create accounting entries against disabled accounts: {0}"
 msgstr ""
 
@@ -15956,12 +16017,14 @@ msgid "Closing"
 msgstr ""
 
 #: accounts/report/trial_balance/trial_balance.py:451
+#: accounts/report/trial_balance/trial_balance.py:454
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:221
 #: public/js/account_tree_grid.js:66
 msgid "Closing (Cr)"
 msgstr ""
 
 #: accounts/report/trial_balance/trial_balance.py:444
+#: accounts/report/trial_balance/trial_balance.py:447
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:214
 #: public/js/account_tree_grid.js:64
 msgid "Closing (Dr)"
@@ -21089,6 +21152,7 @@ msgstr ""
 #: accounts/report/general_ledger/general_ledger.html:31
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:115
 #: accounts/report/trial_balance/trial_balance.py:437
+#: accounts/report/trial_balance/trial_balance.py:440
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:207
 #: accounts/report/voucher_wise_balance/voucher_wise_balance.py:34
 #: public/js/account_tree_grid.js:62
@@ -21498,6 +21562,7 @@ msgstr ""
 #: accounts/report/sales_register/sales_register.py:214
 #: accounts/report/trial_balance/trial_balance.js:77
 #: accounts/report/trial_balance/trial_balance.py:409
+#: accounts/report/trial_balance/trial_balance.py:412
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:228
 #: public/js/financial_statements.js:172
 #: selling/report/item_wise_sales_history/item_wise_sales_history.py:121
@@ -23990,6 +24055,7 @@ msgstr ""
 #: accounts/report/general_ledger/general_ledger.html:30
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:114
 #: accounts/report/trial_balance/trial_balance.py:430
+#: accounts/report/trial_balance/trial_balance.py:433
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:200
 #: accounts/report/voucher_wise_balance/voucher_wise_balance.py:27
 #: public/js/account_tree_grid.js:60
@@ -24105,7 +24171,7 @@ msgstr ""
 msgid "Debit To is required"
 msgstr ""
 
-#: accounts/general_ledger.py:409
+#: accounts/general_ledger.py:406 accounts/general_ledger.py:409
 msgid "Debit and Credit not equal for {0} #{1}. Difference is {2}."
 msgstr ""
 
@@ -27439,7 +27505,7 @@ msgctxt "Warehouse"
 msgid "Disabled"
 msgstr ""
 
-#: accounts/general_ledger.py:73
+#: accounts/general_ledger.py:70 accounts/general_ledger.py:73
 msgid "Disabled Account Selected"
 msgstr ""
 
@@ -38882,7 +38948,7 @@ msgstr ""
 msgid "Incorrect Warehouse"
 msgstr ""
 
-#: accounts/general_ledger.py:49
+#: accounts/general_ledger.py:46 accounts/general_ledger.py:49
 msgid ""
 "Incorrect number of General Ledger Entries found. You might have selected"
 " a wrong Account in the transaction."
@@ -39778,7 +39844,7 @@ msgid "Invalid Item Defaults"
 msgstr ""
 
 #: accounts/doctype/pos_closing_entry/pos_closing_entry.py:22
-#: accounts/general_ledger.py:594
+#: accounts/general_ledger.py:591 accounts/general_ledger.py:594
 msgid "Invalid Opening Entry"
 msgstr ""
 
@@ -52886,12 +52952,14 @@ msgid "Opening & Closing"
 msgstr ""
 
 #: accounts/report/trial_balance/trial_balance.py:423
+#: accounts/report/trial_balance/trial_balance.py:426
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:193
 #: public/js/account_tree_grid.js:58
 msgid "Opening (Cr)"
 msgstr ""
 
 #: accounts/report/trial_balance/trial_balance.py:416
+#: accounts/report/trial_balance/trial_balance.py:419
 #: accounts/report/trial_balance_for_party/trial_balance_for_party.py:186
 #: public/js/account_tree_grid.js:56
 msgid "Opening (Dr)"
@@ -52993,7 +53061,7 @@ msgstr ""
 msgid "Opening Entry Journal"
 msgstr ""
 
-#: accounts/general_ledger.py:593
+#: accounts/general_ledger.py:590 accounts/general_ledger.py:593
 msgid "Opening Entry can not be created after Period Closing Voucher is created."
 msgstr ""
 
@@ -57790,7 +57858,7 @@ msgstr ""
 msgid "Period Based On"
 msgstr ""
 
-#: accounts/general_ledger.py:607
+#: accounts/general_ledger.py:604 accounts/general_ledger.py:607
 msgid "Period Closed"
 msgstr ""
 
@@ -59046,11 +59114,11 @@ msgstr ""
 msgid "Please mention 'Weight UOM' along with Weight."
 msgstr ""
 
-#: accounts/general_ledger.py:495
+#: accounts/general_ledger.py:492 accounts/general_ledger.py:495
 msgid "Please mention Round Off Account in Company"
 msgstr ""
 
-#: accounts/general_ledger.py:498
+#: accounts/general_ledger.py:495 accounts/general_ledger.py:498
 msgid "Please mention Round Off Cost Center in Company"
 msgstr ""
 
@@ -85089,6 +85157,7 @@ msgid ""
 msgstr ""
 
 #: accounts/doctype/period_closing_voucher/period_closing_voucher.py:139
+#: accounts/doctype/period_closing_voucher/period_closing_voucher.py:141
 msgid ""
 "The GL Entries will be processed in the background, it can take a few "
 "minutes."
@@ -87427,6 +87496,7 @@ msgstr ""
 #: accounts/report/financial_statements.py:545
 #: accounts/report/general_ledger/general_ledger.py:253
 #: accounts/report/trial_balance/trial_balance.py:265
+#: accounts/report/trial_balance/trial_balance.py:268
 msgid ""
 "To use a different finance book, please uncheck 'Include Default Book "
 "Entries'"
@@ -87489,6 +87559,8 @@ msgstr ""
 #: accounts/report/profitability_analysis/profitability_analysis.py:89
 #: accounts/report/trial_balance/trial_balance.py:331
 #: accounts/report/trial_balance/trial_balance.py:332
+#: accounts/report/trial_balance/trial_balance.py:334
+#: accounts/report/trial_balance/trial_balance.py:335
 #: regional/report/vat_audit_report/vat_audit_report.py:199
 #: selling/report/customer_acquisition_and_loyalty/customer_acquisition_and_loyalty.py:28
 #: selling/report/sales_analytics/sales_analytics.py:91
@@ -95109,7 +95181,7 @@ msgstr ""
 msgid "You are not allowed to update as per the conditions set in {} Workflow."
 msgstr ""
 
-#: accounts/general_ledger.py:582
+#: accounts/general_ledger.py:579 accounts/general_ledger.py:582
 msgid "You are not authorized to add or update entries before {0}"
 msgstr ""
 
@@ -95236,13 +95308,17 @@ msgstr ""
 msgid "You cannot change the rate if BOM is mentioned against any Item."
 msgstr ""
 
-#: accounts/general_ledger.py:100
+#: accounts/doctype/accounting_period/accounting_period.py:106
+msgid "You cannot create a {0} within the closed Accounting Period {1}"
+msgstr ""
+
+#: accounts/general_ledger.py:97 accounts/general_ledger.py:100
 msgid ""
 "You cannot create or cancel any accounting entries with in the closed "
 "Accounting Period {0}"
 msgstr ""
 
-#: accounts/general_ledger.py:606
+#: accounts/general_ledger.py:603 accounts/general_ledger.py:606
 msgid "You cannot create/amend any accounting entries till this date."
 msgstr ""
 
