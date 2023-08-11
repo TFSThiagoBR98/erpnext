@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-07-24 13:39+0000\n"
+"PO-Revision-Date: 2023-08-12 19:33+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -3792,7 +3792,7 @@ msgstr "Leads Ativos"
 
 #. DocType: Lead:1
 msgid "Activities"
-msgstr "Actividades"
+msgstr "Atividades"
 
 #. Label of a Tab Break field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
@@ -4532,7 +4532,7 @@ msgstr ""
 
 #. DocType: CRM Note:1
 msgid "Added On"
-msgstr ""
+msgstr "Adicionado em"
 
 #. Label of a Datetime field in DocType 'CRM Note'
 #: crm/doctype/crm_note/crm_note.json
@@ -6406,6 +6406,7 @@ msgstr "Alocado"
 
 #. DocType: Advance Tax:1
 #: accounts/report/gross_profit/gross_profit.py:314
+#, fuzzy
 msgid "Allocated Amount"
 msgstr "Quantidade Atribuída"
 
@@ -6487,7 +6488,7 @@ msgstr "Quantidade alocada não pode ser negativa"
 #. DocType: Payment Reconciliation:1
 #: accounts/doctype/payment_reconciliation/payment_reconciliation.js:226
 msgid "Allocation"
-msgstr "Alocação"
+msgstr "Atribuição"
 
 #. Label of a Table field in DocType 'Payment Reconciliation'
 #: accounts/doctype/payment_reconciliation/payment_reconciliation.json
