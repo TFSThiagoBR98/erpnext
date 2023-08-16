@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-08-12 19:33+0000\n"
+"PO-Revision-Date: 2023-08-18 10:07+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -287,18 +287,18 @@ msgstr "% de materiais faturados em relação a este Pedido de Vendas"
 #. DocType: Sales Order:1
 #, python-format
 msgid "% of materials delivered against this Sales Order"
-msgstr ""
+msgstr "% de materiais entregues de acordo com este Pedido de Vendas"
 
 #. Description of a Percent field in DocType 'Sales Order'
 #: selling/doctype/sales_order/sales_order.json
 #, python-format
 msgctxt "Sales Order"
 msgid "% of materials delivered against this Sales Order"
-msgstr ""
+msgstr "% de materiais entregues de acordo com este Pedido de Vendas"
 
 #: controllers/accounts_controller.py:1477
 msgid "'Account' in the Accounting section of Customer {0}"
-msgstr ""
+msgstr "'Conta' na seção Contabilidade do Cliente {0}"
 
 #: controllers/trends.py:56
 msgid "'Based On' and 'Group By' can not be same"
@@ -313,8 +313,9 @@ msgid "'Days Since Last Order' must be greater than or equal to zero"
 msgstr "'Dias desde a última Ordem' deve ser maior ou igual a zero"
 
 #: controllers/accounts_controller.py:1482
+#, fuzzy
 msgid "'Default {0} Account' in Company {1}"
-msgstr ""
+msgstr "'Conta padrão {0}' na empresa {1}"
 
 #: accounts/doctype/journal_entry/journal_entry.py:942
 msgid "'Entries' cannot be empty"
@@ -367,39 +368,44 @@ msgstr ""
 
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:173
 msgid "(B) Expected Qty After Transaction"
-msgstr ""
+msgstr "(B) Quantidade esperada após a transação"
 
 #: stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:185
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:188
+#, fuzzy
 msgid "(C) Total qty in queue"
-msgstr ""
+msgstr "(C) Quantidade total na fila"
 
 #: stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:195
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:198
 msgid "(D) Balance Stock Value"
-msgstr ""
+msgstr "(D) Saldo Valor do stock"
 
 #: stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:200
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:203
+#, fuzzy
 msgid "(E) Balance Stock Value in Queue"
-msgstr ""
+msgstr "(E) Valor do estoque de saldo na fila"
 
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:213
+#, fuzzy
 msgid "(F) Stock Value Difference"
-msgstr ""
+msgstr "(F) Diferença de valor do estoque"
 
 #: manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:193
 msgid "(Forecast)"
 msgstr "(Previsão)"
 
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:228
+#, fuzzy
 msgid "(G) Stock Value difference (FIFO queue)"
-msgstr ""
+msgstr "(G) Diferença de valor do estoque (fila FIFO)"
 
 #: stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:210
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:238
+#, fuzzy
 msgid "(H) Valuation Rate"
-msgstr ""
+msgstr "(H) Taxa de avaliação"
 
 #. DocType: Work Order Operation:1
 msgid "(Hour Rate / 60) * Actual Operation Time"
@@ -412,8 +418,9 @@ msgid "(Hour Rate / 60) * Actual Operation Time"
 msgstr "(Valor por Hora / 60) * Tempo de operação real"
 
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:243
+#, fuzzy
 msgid "(I) Valuation Rate as per FIFO"
-msgstr ""
+msgstr "(I) Taxa de avaliação de acordo com o FIFO"
 
 #: stock/report/stock_ledger_invariant_check/stock_ledger_invariant_check.py:253
 msgid "(J) Valuation = Value (D) ÷ Qty (A)"
@@ -457,12 +464,14 @@ msgstr ""
 "vários meses caso o seu negócio seja sazonal."
 
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:118
+#, fuzzy
 msgid "0-30"
-msgstr ""
+msgstr "0-30"
 
 #: manufacturing/report/work_order_summary/work_order_summary.py:110
+#, fuzzy
 msgid "0-30 Days"
-msgstr ""
+msgstr "0-30 dias"
 
 #. DocType: Loyalty Program:1
 msgid "1 Loyalty Points = How much base currency?"
@@ -486,62 +495,72 @@ msgstr "1 hora"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "1-10"
-msgstr ""
+msgstr "1-10"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "1-10"
-msgstr ""
+msgstr "1-10"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "1-10"
-msgstr ""
+msgstr "1-10"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "1000+"
-msgstr ""
+msgstr "1000+"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "1000+"
-msgstr ""
+msgstr "1000+"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "1000+"
-msgstr ""
+msgstr "1000+"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "11-50"
-msgstr ""
+msgstr "11-50"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "11-50"
-msgstr ""
+msgstr "11-50"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "11-50"
-msgstr ""
+msgstr "11-50"
 
 #: regional/report/uae_vat_201/uae_vat_201.py:99
 #: regional/report/uae_vat_201/uae_vat_201.py:105
+#, fuzzy
 msgid "1{0}"
-msgstr ""
+msgstr "1{0}"
 
 #. DocType: Asset Maintenance Task:1
 msgid "2 Yearly"
@@ -555,31 +574,36 @@ msgstr "2 Anos"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "201-500"
-msgstr ""
+msgstr "201-500"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "201-500"
-msgstr ""
+msgstr "201-500"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "201-500"
-msgstr ""
+msgstr "201-500"
 
 #. DocType: Asset Maintenance Task:1
+#, fuzzy
 msgid "3 Yearly"
-msgstr ""
+msgstr "3 anuais"
 
 #. Option for a Select field in DocType 'Asset Maintenance Task'
 #: assets/doctype/asset_maintenance_task/asset_maintenance_task.json
+#, fuzzy
 msgctxt "Asset Maintenance Task"
 msgid "3 Yearly"
-msgstr ""
+msgstr "3 anuais"
 
 #. DocType: Video Settings:1
 msgid "30 mins"
@@ -592,48 +616,56 @@ msgid "30 mins"
 msgstr "30 minutos"
 
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:119
+#, fuzzy
 msgid "30-60"
-msgstr ""
+msgstr "30-60"
 
 #: manufacturing/report/work_order_summary/work_order_summary.py:110
+#, fuzzy
 msgid "30-60 Days"
-msgstr ""
+msgstr "30 a 60 dias"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "501-1000"
-msgstr ""
+msgstr "501-1000"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "501-1000"
-msgstr ""
+msgstr "501-1000"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "501-1000"
-msgstr ""
+msgstr "501-1000"
 
 #. Option for a Select field in DocType 'Lead'
 #: crm/doctype/lead/lead.json
+#, fuzzy
 msgctxt "Lead"
 msgid "51-200"
-msgstr ""
+msgstr "51-200"
 
 #. Option for a Select field in DocType 'Opportunity'
 #: crm/doctype/opportunity/opportunity.json
+#, fuzzy
 msgctxt "Opportunity"
 msgid "51-200"
-msgstr ""
+msgstr "51-200"
 
 #. Option for a Select field in DocType 'Prospect'
 #: crm/doctype/prospect/prospect.json
+#, fuzzy
 msgctxt "Prospect"
 msgid "51-200"
-msgstr ""
+msgstr "51-200"
 
 #. DocType: Video Settings:1
 msgid "6 hrs"
@@ -646,17 +678,20 @@ msgid "6 hrs"
 msgstr "6 horas"
 
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:120
+#, fuzzy
 msgid "60-90"
-msgstr ""
+msgstr "60-90"
 
 #: manufacturing/report/work_order_summary/work_order_summary.py:110
+#, fuzzy
 msgid "60-90 Days"
-msgstr ""
+msgstr "60-90 dias"
 
 #: accounts/report/payment_period_based_on_invoice_date/payment_period_based_on_invoice_date.py:121
 #: manufacturing/report/work_order_summary/work_order_summary.py:110
+#, fuzzy
 msgid "90 Above"
-msgstr ""
+msgstr "90 Acima"
 
 #: crm/doctype/appointment_booking_settings/appointment_booking_settings.py:34
 msgid "<b>From Time</b> cannot be later than <b>To Time</b> for {0}"
@@ -5500,7 +5535,7 @@ msgstr ""
 
 #. DocType: POS Invoice:1
 msgid "Advance Payments"
-msgstr "Adiantamentos"
+msgstr "Pagamentos Adiantados"
 
 #. Label of a Section Break field in DocType 'Company'
 #: setup/doctype/company/company.json
@@ -5602,7 +5637,7 @@ msgstr "Configurações Avançadas"
 
 #. DocType: POS Invoice:1
 msgid "Advances"
-msgstr "Avanços"
+msgstr "Adiantamentos"
 
 #. Label of a Table field in DocType 'POS Invoice'
 #: accounts/doctype/pos_invoice/pos_invoice.json
@@ -6406,7 +6441,6 @@ msgstr "Alocado"
 
 #. DocType: Advance Tax:1
 #: accounts/report/gross_profit/gross_profit.py:314
-#, fuzzy
 msgid "Allocated Amount"
 msgstr "Quantidade Atribuída"
 
@@ -13632,24 +13666,27 @@ msgstr "CRM"
 #. Name of a DocType
 #. DocType: CRM Note:1
 #: crm/doctype/crm_note/crm_note.json
+#, fuzzy
 msgid "CRM Note"
-msgstr ""
+msgstr "Nota de CRM"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #. DocType: CRM Settings:1
 #: crm/doctype/crm_settings/crm_settings.json
 #: crm/onboarding_step/crm_settings/crm_settings.json
+#, fuzzy
 msgid "CRM Settings"
-msgstr ""
+msgstr "Configurações de CRM"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Link in the ERPNext Settings Workspace
 #: crm/workspace/crm/crm.json
 #: setup/workspace/erpnext_settings/erpnext_settings.json
+#, fuzzy
 msgctxt "CRM Settings"
 msgid "CRM Settings"
-msgstr ""
+msgstr "Configurações de CRM"
 
 #. DocType: Lead:1
 msgid "CRM-LEAD-.YYYY.-"
@@ -13763,8 +13800,9 @@ msgid "Calibration"
 msgstr "Calibração"
 
 #: telephony/doctype/call_log/call_log.js:8
+#, fuzzy
 msgid "Call Again"
-msgstr ""
+msgstr "Ligar novamente"
 
 #: public/js/call_popup/call_popup.js:41
 msgid "Call Connected"
@@ -13791,8 +13829,9 @@ msgid "Call Duration in seconds"
 msgstr "Duração da chamada em segundos"
 
 #: public/js/call_popup/call_popup.js:48
+#, fuzzy
 msgid "Call Ended"
-msgstr ""
+msgstr "Chamada encerrada"
 
 #. DocType: Incoming Call Settings:1
 msgid "Call Handling Schedule"
@@ -13815,34 +13854,40 @@ msgid "Call Missed"
 msgstr "Chamada Perdida"
 
 #. DocType: Call Log:1
+#, fuzzy
 msgid "Call Received By"
-msgstr ""
+msgstr "Chamada recebida por"
 
 #. Label of a Link field in DocType 'Call Log'
 #: telephony/doctype/call_log/call_log.json
+#, fuzzy
 msgctxt "Call Log"
 msgid "Call Received By"
-msgstr ""
+msgstr "Chamada recebida por"
 
 #. DocType: Voice Call Settings:1
+#, fuzzy
 msgid "Call Receiving Device"
-msgstr ""
+msgstr "Dispositivo de recepção de chamadas"
 
 #. Label of a Select field in DocType 'Voice Call Settings'
 #: telephony/doctype/voice_call_settings/voice_call_settings.json
+#, fuzzy
 msgctxt "Voice Call Settings"
 msgid "Call Receiving Device"
-msgstr ""
+msgstr "Dispositivo de recepção de chamadas"
 
 #. DocType: Incoming Call Settings:1
+#, fuzzy
 msgid "Call Routing"
-msgstr ""
+msgstr "Roteamento de chamadas"
 
 #. Label of a Select field in DocType 'Incoming Call Settings'
 #: telephony/doctype/incoming_call_settings/incoming_call_settings.json
+#, fuzzy
 msgctxt "Incoming Call Settings"
 msgid "Call Routing"
-msgstr ""
+msgstr "Roteamento de chamadas"
 
 #: telephony/doctype/incoming_call_settings/incoming_call_settings.js:57
 #: telephony/doctype/incoming_call_settings/incoming_call_settings.py:30
@@ -13868,18 +13913,21 @@ msgid "Call Summary Saved"
 msgstr "Resumo de Chamadas Salvo"
 
 #. DocType: Telephony Call Type:1
+#, fuzzy
 msgid "Call Type"
-msgstr ""
+msgstr "Tipo de chamada"
 
 #. Label of a Data field in DocType 'Telephony Call Type'
 #: telephony/doctype/telephony_call_type/telephony_call_type.json
+#, fuzzy
 msgctxt "Telephony Call Type"
 msgid "Call Type"
-msgstr ""
+msgstr "Tipo de chamada"
 
 #: telephony/doctype/call_log/call_log.js:8
+#, fuzzy
 msgid "Callback"
-msgstr ""
+msgstr "Retorno de chamada"
 
 #. Name of a DocType
 #. Label of a Card Break in the CRM Workspace
@@ -13986,8 +14034,9 @@ msgstr "Agenda de E-mail da Campanha"
 #. Name of a DocType
 #. DocType: Campaign Item:1
 #: accounts/doctype/campaign_item/campaign_item.json
+#, fuzzy
 msgid "Campaign Item"
-msgstr ""
+msgstr "Item de campanha"
 
 #. DocType: Campaign:1
 msgid "Campaign Name"
@@ -14454,8 +14503,9 @@ msgstr ""
 
 #: stock/doctype/item/item.py:528 stock/doctype/item/item.py:541
 #: stock/doctype/item/item.py:555 stock/doctype/item/item.py:576
+#, fuzzy
 msgid "Cannot Merge"
-msgstr ""
+msgstr "Não é possível mesclar"
 
 #: stock/doctype/delivery_trip/delivery_trip.js:100
 msgid "Cannot Optimize Route as Driver Address is Missing."
@@ -14474,18 +14524,24 @@ msgid "Cannot be a fixed asset item as Stock Ledger is created."
 msgstr "Não pode ser um item de ativos fixos pois o Ledger de estoque é criado."
 
 #: stock/doctype/repost_item_valuation/repost_item_valuation.py:196
+#, fuzzy
 msgid "Cannot cancel as processing of cancelled documents is  pending."
 msgstr ""
+"Não é possível cancelar porque o processamento dos documentos cancelados "
+"está pendente."
 
 #: manufacturing/doctype/work_order/work_order.py:566
 msgid "Cannot cancel because submitted Stock Entry {0} exists"
 msgstr "Não pode cancelar por causa da entrada submetido {0} existe"
 
 #: stock/stock_ledger.py:187
+#, fuzzy
 msgid ""
 "Cannot cancel the transaction. Reposting of item valuation on submission "
 "is not completed yet."
 msgstr ""
+"Não é possível cancelar a transação. A repostagem da avaliação do item no "
+"envio ainda não foi concluída."
 
 #: controllers/buying_controller.py:812
 msgid ""
@@ -14672,16 +14728,20 @@ msgstr ""
 "Venda {1}"
 
 #: manufacturing/doctype/work_order/work_order.py:854
+#, fuzzy
 msgid "Cannot produce more item for {0}"
-msgstr ""
+msgstr "Não é possível produzir mais itens para {0}"
 
 #: manufacturing/doctype/work_order/work_order.py:858
+#, fuzzy
 msgid "Cannot produce more than {0} items for {1}"
-msgstr ""
+msgstr "Não é possível produzir mais de {0} itens para {1}"
 
 #: accounts/doctype/payment_entry/payment_entry.py:876
+#, fuzzy
 msgid "Cannot receive from Supplier without any negative outstanding invoice"
 msgstr ""
+"Não é possível receber do fornecedor sem nenhuma fatura pendente negativa"
 
 #: accounts/doctype/payment_entry/payment_entry.py:190
 msgid "Cannot receive from customer against negative outstanding"
@@ -72586,12 +72646,14 @@ msgid "Row {0}: Please select a BOM for Item {1}."
 msgstr ""
 
 #: controllers/subcontracting_controller.py:92
+#, fuzzy
 msgid "Row {0}: Please select an active BOM for Item {1}."
-msgstr ""
+msgstr "Linha {0}: Selecione uma lista técnica ativa para o Item {1}."
 
 #: controllers/subcontracting_controller.py:96
+#, fuzzy
 msgid "Row {0}: Please select an valid BOM for Item {1}."
-msgstr ""
+msgstr "Linha {0}: Selecione uma lista técnica válida para o Item {1}."
 
 #: regional/italy/utils.py:310
 msgid "Row {0}: Please set at Tax Exemption Reason in Sales Taxes and Charges"
@@ -72610,20 +72672,26 @@ msgid "Row {0}: Please set the correct code on Mode of Payment {1}"
 msgstr "Linha {0}: Por favor defina o código correto em Modo de pagamento {1}"
 
 #: projects/doctype/timesheet/timesheet.py:161
+#, fuzzy
 msgid "Row {0}: Project must be same as the one set in the Timesheet: {1}."
 msgstr ""
+"Linha {0}: O projeto deve ser o mesmo que o definido na planilha de horas: "
+"{1}."
 
 #: stock/doctype/landed_cost_voucher/landed_cost_voucher.py:77
+#, fuzzy
 msgid "Row {0}: Purchase Invoice {1} has no stock impact."
-msgstr ""
+msgstr "Linha {0}: A nota fiscal de compra {1} não tem impacto no estoque."
 
 #: stock/doctype/packing_slip/packing_slip.py:131
+#, fuzzy
 msgid "Row {0}: Qty cannot be greater than {1} for the Item {2}."
-msgstr ""
+msgstr "Linha {0}: A quantidade não pode ser maior que {1} para o Item {2}."
 
 #: stock/doctype/stock_entry/stock_entry.py:325
+#, fuzzy
 msgid "Row {0}: Qty in Stock UOM can not be zero."
-msgstr ""
+msgstr "Linha {0}: A quantidade em estoque UOM não pode ser zero."
 
 #: controllers/selling_controller.py:291
 #: stock/doctype/stock_entry/stock_entry.py:317
@@ -72631,8 +72699,9 @@ msgid "Row {0}: Qty is mandatory"
 msgstr "Linha {0}: Qtde é obrigatória"
 
 #: stock/doctype/packing_slip/packing_slip.py:102
+#, fuzzy
 msgid "Row {0}: Qty must be greater than 0."
-msgstr ""
+msgstr "Linha {0}: A quantidade deve ser maior que 0."
 
 #: stock/doctype/stock_entry/stock_entry.py:674
 msgid ""
@@ -72647,24 +72716,32 @@ msgid "Row {0}: Subcontracted Item is mandatory for the raw material {1}"
 msgstr "Linha {0}: Item subcontratado é obrigatório para a matéria-prima {1}"
 
 #: controllers/stock_controller.py:708
+#, fuzzy
 msgid "Row {0}: Target Warehouse is mandatory for internal transfers"
 msgstr ""
+"Linha {0}: O depósito de destino é obrigatório para transferências internas"
 
 #: stock/doctype/stock_entry/stock_entry.py:368
 msgid "Row {0}: The item {1}, quantity must be positive number"
 msgstr "Linha {0}: o item {1}, a quantidade deve ser um número positivo"
 
 #: maintenance/doctype/maintenance_schedule/maintenance_schedule.py:185
+#, fuzzy
 msgid ""
 "Row {0}: To set {1} periodicity, difference between from and to date must"
 " be greater than or equal to {2}"
 msgstr ""
+"Linha {0}: Para definir a periodicidade {1}, a diferença entre as datas de "
+"início e fim deve ser maior ou igual a {2}"
 
 #: assets/doctype/asset/asset.py:274
+#, fuzzy
 msgid ""
 "Row {0}: Total Number of Depreciations cannot be less than or equal to "
 "Number of Depreciations Booked"
 msgstr ""
+"Linha {0}: O número total de depreciações não pode ser menor ou igual ao "
+"número de depreciações registradas"
 
 #: stock/doctype/stock_entry/stock_entry.py:319
 msgid "Row {0}: UOM Conversion Factor is mandatory"
@@ -72675,24 +72752,27 @@ msgid "Row {0}: user has not applied the rule {1} on the item {2}"
 msgstr "Linha {0}: o usuário não aplicou a regra {1} no item {2}"
 
 #: accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.py:38
+#, fuzzy
 msgid "Row {0}: {1} account already applied for Accounting Dimension {2}"
-msgstr ""
+msgstr "Linha {0}: {1} conta já aplicada para a Dimensão Contábil {2}"
 
 #: assets/doctype/asset_category/asset_category.py:23
 msgid "Row {0}: {1} must be greater than 0"
 msgstr "Linha {0}: {1} deve ser maior que 0"
 
 #: controllers/accounts_controller.py:386
+#, fuzzy
 msgid "Row {0}: {1} {2} cannot be same as {3} (Party Account) {4}"
-msgstr ""
+msgstr "Linha {0}: {1} {2} não pode ser igual a {3} (Conta da Parte) {4}"
 
 #: accounts/doctype/journal_entry/journal_entry.py:605
 msgid "Row {0}: {1} {2} does not match with {3}"
 msgstr "Linha {0}: {1} {2} não corresponde com {3}"
 
 #: controllers/accounts_controller.py:2059
+#, fuzzy
 msgid "Row {0}: {3} Account {1} does not belong to Company {2}"
-msgstr ""
+msgstr "Linha {0}: {3} A conta {1} não pertence à empresa {2}"
 
 #: utilities/transaction_base.py:214
 msgid ""
@@ -72709,10 +72789,13 @@ msgstr ""
 "automática do item {}"
 
 #: accounts/doctype/invoice_discounting/invoice_discounting.py:56
+#, fuzzy
 msgid ""
 "Row({0}): Outstanding Amount cannot be greater than actual Outstanding "
 "Amount {1} in {2}"
 msgstr ""
+"Linha({0}): O valor pendente não pode ser maior do que o valor pendente real "
+"{1} em {2}"
 
 #: accounts/doctype/invoice_discounting/invoice_discounting.py:46
 msgid "Row({0}): {1} is already discounted in {2}"
@@ -72775,20 +72858,23 @@ msgid "Rule Description"
 msgstr "Descrição da Regra"
 
 #. DocType: Process Payment Reconciliation:1
+#, fuzzy
 msgid "Running"
-msgstr ""
+msgstr "Em execução"
 
 #. Option for a Select field in DocType 'Process Payment Reconciliation'
 #: accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+#, fuzzy
 msgctxt "Process Payment Reconciliation"
 msgid "Running"
-msgstr ""
+msgstr "Em execução"
 
 #. Option for a Select field in DocType 'Process Payment Reconciliation Log'
 #: accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
+#, fuzzy
 msgctxt "Process Payment Reconciliation Log"
 msgid "Running"
-msgstr ""
+msgstr "Em execução"
 
 #: selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:28
 msgid "S.O. No."
@@ -72796,19 +72882,22 @@ msgstr "Número da Ordem de Venda"
 
 #. Label of a Link in the ERPNext Integrations Workspace
 #: erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
+#, fuzzy
 msgctxt "S3 Backup Settings"
 msgid "S3 Backup Settings"
-msgstr ""
+msgstr "Configurações de backup do S3"
 
 #. DocType: Serial and Batch Bundle:1
+#, fuzzy
 msgid "SABB-.########"
-msgstr ""
+msgstr "SABB-.########"
 
 #. Option for a Select field in DocType 'Serial and Batch Bundle'
 #: stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+#, fuzzy
 msgctxt "Serial and Batch Bundle"
 msgid "SABB-.########"
-msgstr ""
+msgstr "SABB-.########"
 
 #. DocType: Campaign:1
 msgid "SAL-CAM-.YYYY.-"
@@ -72841,24 +72930,28 @@ msgid "SAL-QTN-.YYYY.-"
 msgstr "SAL-QTN-.YYYY.-"
 
 #. DocType: Subcontracting Order:1
+#, fuzzy
 msgid "SC-ORD-.YYYY.-"
-msgstr ""
+msgstr "SC-ORD-.YYYY.-"
 
 #. Option for a Select field in DocType 'Subcontracting Order'
 #: subcontracting/doctype/subcontracting_order/subcontracting_order.json
+#, fuzzy
 msgctxt "Subcontracting Order"
 msgid "SC-ORD-.YYYY.-"
-msgstr ""
+msgstr "SC-ORD-.YYYY.-"
 
 #. DocType: Stock Entry Detail:1
+#, fuzzy
 msgid "SCO Supplied Item"
-msgstr ""
+msgstr "Item fornecido pela SCO"
 
 #. Label of a Data field in DocType 'Stock Entry Detail'
 #: stock/doctype/stock_entry_detail/stock_entry_detail.json
+#, fuzzy
 msgctxt "Stock Entry Detail"
 msgid "SCO Supplied Item"
-msgstr ""
+msgstr "Item fornecido pela SCO"
 
 #. DocType: Warranty Claim:1
 msgid "SER-WRN-.YYYY.-"
@@ -72871,38 +72964,44 @@ msgid "SER-WRN-.YYYY.-"
 msgstr "SER-WRN-.YYYY.-"
 
 #. DocType: Service Level Agreement:1
+#, fuzzy
 msgid "SLA Fulfilled On"
-msgstr ""
+msgstr "SLA cumprido em"
 
 #. Label of a Table field in DocType 'Service Level Agreement'
 #: support/doctype/service_level_agreement/service_level_agreement.json
+#, fuzzy
 msgctxt "Service Level Agreement"
 msgid "SLA Fulfilled On"
-msgstr ""
+msgstr "SLA cumprido em"
 
 #. Name of a DocType
 #. DocType: SLA Fulfilled On Status:1
 #: support/doctype/sla_fulfilled_on_status/sla_fulfilled_on_status.json
+#, fuzzy
 msgid "SLA Fulfilled On Status"
-msgstr ""
+msgstr "Status de SLA cumprido em"
 
 #. DocType: Service Level Agreement:1
+#, fuzzy
 msgid "SLA Paused On"
-msgstr ""
+msgstr "SLA pausado em"
 
 #. Label of a Table field in DocType 'Service Level Agreement'
 #: support/doctype/service_level_agreement/service_level_agreement.json
+#, fuzzy
 msgctxt "Service Level Agreement"
 msgid "SLA Paused On"
-msgstr ""
+msgstr "SLA pausado em"
 
 #: public/js/utils.js:942
 msgid "SLA is on hold since {0}"
 msgstr "SLA está em espera desde {0}"
 
 #: support/doctype/service_level_agreement/service_level_agreement.js:32
+#, fuzzy
 msgid "SLA will be applied on every {0}"
-msgstr ""
+msgstr "O SLA será aplicado a cada {0}"
 
 #. Name of a DocType
 #. DocType: SMS Center:1
@@ -72932,17 +73031,19 @@ msgstr "Log de SMS"
 #. Label of a Link in the ERPNext Integrations Workspace
 #: crm/workspace/crm/crm.json
 #: erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
+#, fuzzy
 msgctxt "SMS Settings"
 msgid "SMS Settings"
-msgstr ""
+msgstr "Configurações de SMS"
 
 #: selling/report/pending_so_items_for_purchase_request/pending_so_items_for_purchase_request.py:43
 msgid "SO Qty"
 msgstr "Qtde na OV"
 
 #: accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.html:16
+#, fuzzy
 msgid "STATEMENTS OF ACCOUNTS"
-msgstr ""
+msgstr "EXTRATOS DE CONTAS"
 
 #. DocType: Item:1
 msgid "STO-ITEM-.YYYY.-"
@@ -73036,14 +73137,16 @@ msgid "Salary"
 msgstr "Salário"
 
 #. DocType: Employee:1
+#, fuzzy
 msgid "Salary Currency"
-msgstr ""
+msgstr "Moeda do salário"
 
 #. Label of a Link field in DocType 'Employee'
 #: setup/doctype/employee/employee.json
+#, fuzzy
 msgctxt "Employee"
 msgid "Salary Currency"
-msgstr ""
+msgstr "Moeda do salário"
 
 #. DocType: Employee:1
 msgid "Salary Mode"
@@ -73315,8 +73418,11 @@ msgid "Sales Invoice {0} has already been submitted"
 msgstr "A Fatura de Venda {0} já foi enviada"
 
 #: selling/doctype/sales_order/sales_order.py:320
+#, fuzzy
 msgid "Sales Invoice {0} must be deleted before cancelling this Sales Order"
 msgstr ""
+"A fatura de vendas {0} deve ser excluída antes de cancelar esse pedido de "
+"vendas"
 
 #. Name of a role
 #. DocType: Coupon Code:1
@@ -73612,30 +73718,37 @@ msgid "Sales Order Item"
 msgstr "Item do Pedido de Venda"
 
 #. DocType: Purchase Order Item:1
+#, fuzzy
 msgid "Sales Order Packed Item"
-msgstr ""
+msgstr "Item embalado do pedido de vendas"
 
 #. Label of a Data field in DocType 'Purchase Order Item'
 #: buying/doctype/purchase_order_item/purchase_order_item.json
+#, fuzzy
 msgctxt "Purchase Order Item"
 msgid "Sales Order Packed Item"
-msgstr ""
+msgstr "Item embalado do pedido de vendas"
 
 #. DocType: Production Plan Item Reference:1
+#, fuzzy
 msgid "Sales Order Reference"
-msgstr ""
+msgstr "Referência do pedido de vendas"
 
 #. Label of a Link field in DocType 'Production Plan Item Reference'
 #: manufacturing/doctype/production_plan_item_reference/production_plan_item_reference.json
+#, fuzzy
 msgctxt "Production Plan Item Reference"
 msgid "Sales Order Reference"
-msgstr ""
+msgstr "Referência do pedido de vendas"
 
 #. Title of a step of 'Selling Settings' Form Tour
 #: selling/form_tour/selling_settings/selling_settings.json
+#, fuzzy
 msgctxt "Selling Settings"
 msgid "Sales Order Required for Sales Invoice & Delivery Note Creation"
 msgstr ""
+"Pedido de vendas necessário para a criação da fatura de vendas e da nota de "
+"entrega"
 
 #. DocType: Woocommerce Settings:1
 msgid "Sales Order Series"
@@ -73648,14 +73761,16 @@ msgid "Sales Order Series"
 msgstr "Série de Pedidos de Vendas"
 
 #. DocType: Production Plan:1
+#, fuzzy
 msgid "Sales Order Status"
-msgstr ""
+msgstr "Status do pedido de vendas"
 
 #. Label of a Select field in DocType 'Production Plan'
 #: manufacturing/doctype/production_plan/production_plan.json
+#, fuzzy
 msgctxt "Production Plan"
 msgid "Sales Order Status"
-msgstr ""
+msgstr "Status do pedido de vendas"
 
 #. Label of a chart in the Selling Workspace
 #. Label of a Link in the Selling Workspace
@@ -73796,14 +73911,16 @@ msgid "Sales Partner"
 msgstr "Parceiro de Vendas"
 
 #. DocType: Sales Partner Item:1
+#, fuzzy
 msgid "Sales Partner "
-msgstr ""
+msgstr "Parceiro de vendas "
 
 #. Label of a Link field in DocType 'Sales Partner Item'
 #: accounts/doctype/sales_partner_item/sales_partner_item.json
+#, fuzzy
 msgctxt "Sales Partner Item"
 msgid "Sales Partner "
-msgstr ""
+msgstr "Parceiro de vendas "
 
 #. None:1
 msgid "Sales Partner Commission Summary"
@@ -73812,8 +73929,9 @@ msgstr "Resumo da Comissão do Parceiro de Vendas"
 #. Name of a DocType
 #. DocType: Sales Partner Item:1
 #: accounts/doctype/sales_partner_item/sales_partner_item.json
+#, fuzzy
 msgid "Sales Partner Item"
-msgstr ""
+msgstr "Item do parceiro de vendas"
 
 #. DocType: Sales Partner:1
 msgid "Sales Partner Name"
@@ -73837,8 +73955,9 @@ msgstr "Metas do Parceiro de Vendas"
 
 #. Label of a Link in the Selling Workspace
 #: selling/workspace/selling/selling.json
+#, fuzzy
 msgid "Sales Partner Target Variance Based On Item Group"
-msgstr ""
+msgstr "Desvio de destino do parceiro de vendas com base no grupo de itens"
 
 #. None:1
 msgid "Sales Partner Target Variance based on Item Group"
@@ -73975,8 +74094,9 @@ msgstr "Pipeline de Vendas"
 #. Label of a Link in the CRM Workspace
 #. None:1
 #: crm/workspace/crm/crm.json
+#, fuzzy
 msgid "Sales Pipeline Analytics"
-msgstr ""
+msgstr "Análise do pipeline de vendas"
 
 #: stock/report/item_prices/item_prices.py:58
 msgid "Sales Price List"
@@ -74177,14 +74297,16 @@ msgid "Sales Team"
 msgstr "Equipe de Vendas"
 
 #. DocType: Selling Settings:1
+#, fuzzy
 msgid "Sales Update Frequency in Company and Project"
-msgstr ""
+msgstr "Frequência de atualização de vendas na empresa e no projeto"
 
 #. Label of a Select field in DocType 'Selling Settings'
 #: selling/doctype/selling_settings/selling_settings.json
+#, fuzzy
 msgctxt "Selling Settings"
 msgid "Sales Update Frequency in Company and Project"
-msgstr ""
+msgstr "Frequência de atualização de vendas na empresa e no projeto"
 
 #. Name of a role
 #. DocType: Account:1
@@ -74230,8 +74352,9 @@ msgid "Sales User"
 msgstr "Usuário de Vendas"
 
 #: selling/report/sales_order_trends/sales_order_trends.py:50
+#, fuzzy
 msgid "Sales Value"
-msgstr ""
+msgstr "Valor de vendas"
 
 #: accounts/report/sales_payment_summary/sales_payment_summary.py:25
 #: accounts/report/sales_payment_summary/sales_payment_summary.py:41
@@ -74291,8 +74414,9 @@ msgid "Same Item"
 msgstr "Mesmo Item"
 
 #: stock/doctype/stock_reconciliation/stock_reconciliation.py:265
+#, fuzzy
 msgid "Same item and warehouse combination already entered."
-msgstr ""
+msgstr "O mesmo item e a mesma combinação de depósito já foram inseridos."
 
 #: buying/utils.py:64
 msgid "Same item cannot be entered multiple times."
@@ -74560,8 +74684,9 @@ msgid "Scan Serial No"
 msgstr ""
 
 #: public/js/utils/barcode_scanner.js:172
+#, fuzzy
 msgid "Scan barcode for item {0}"
-msgstr ""
+msgstr "Ler o código de barras do item {0}"
 
 #: stock/doctype/stock_reconciliation/stock_reconciliation.js:93
 msgid "Scan mode enabled, existing quantity will not be fetched."
@@ -74578,8 +74703,9 @@ msgid "Scanned Cheque"
 msgstr "Cheque Escaneado"
 
 #: public/js/utils/barcode_scanner.js:239
+#, fuzzy
 msgid "Scanned Quantity"
-msgstr ""
+msgstr "Quantidade digitalizada"
 
 #. DocType: Maintenance Schedule:1
 msgid "Schedule"
@@ -97515,8 +97641,9 @@ msgstr "{} do {}"
 
 #: accounts/doctype/party_link/party_link.py:36
 #: accounts/doctype/party_link/party_link.py:46
+#, fuzzy
 msgid "{} {} is already linked with another {}"
-msgstr ""
+msgstr "{} {} já está vinculado a outro {}"
 
 #: accounts/doctype/party_link/party_link.py:26
 msgid "{} {} is already linked with {} {}"
