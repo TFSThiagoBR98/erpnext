@@ -1,9 +1,10 @@
 // Copyright (c) 2020, Frappe Technologies Pvt. Ltd. and contributors
 // For license information, please see license.txt
 
-{% include 'erpnext/selling/sales_common.js' %};
 frappe.provide("erpnext.accounts");
+erpnext.sales_common.setup_selling_controller();
 
+erpnext.accounts.pos.setup("POS Invoice");
 erpnext.selling.POSInvoiceController = class POSInvoiceController extends erpnext.selling.SellingController {
 	settings = {};
 
@@ -130,6 +131,7 @@ erpnext.selling.POSInvoiceController = class POSInvoiceController extends erpnex
 			args: { "pos_profile": frm.pos_profile },
 			callback: ({ message: profile }) => {
 				this.update_customer_groups_settings(profile?.customer_groups);
+				this.frm.set_value("company", profile?.company);
 			},
 		});
 	}
