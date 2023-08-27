@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-08-27 18:13+0000\n"
+"PO-Revision-Date: 2023-08-27 18:33+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -13665,32 +13665,29 @@ msgstr ""
 #: crm/module_onboarding/crm/crm.json crm/workspace/crm/crm.json
 #: setup/workspace/home/home.json
 msgid "CRM"
-msgstr "CRM"
+msgstr "Relacionamento com o Cliente"
 
 #. Name of a DocType
 #. DocType: CRM Note:1
 #: crm/doctype/crm_note/crm_note.json
-#, fuzzy
 msgid "CRM Note"
-msgstr "Nota de CRM"
+msgstr "Nota de Relacionamento com o Cliente"
 
 #. Name of a DocType
 #. Title of a Module Onboarding
 #. DocType: CRM Settings:1
 #: crm/doctype/crm_settings/crm_settings.json
 #: crm/onboarding_step/crm_settings/crm_settings.json
-#, fuzzy
 msgid "CRM Settings"
-msgstr "Configurações de CRM"
+msgstr "Configurações de Relacionamento com o Cliente"
 
 #. Label of a Link in the CRM Workspace
 #. Label of a Link in the ERPNext Settings Workspace
 #: crm/workspace/crm/crm.json
 #: setup/workspace/erpnext_settings/erpnext_settings.json
-#, fuzzy
 msgctxt "CRM Settings"
 msgid "CRM Settings"
-msgstr "Configurações de CRM"
+msgstr "Configurações de Relacionamento com o Cliente"
 
 #. DocType: Lead:1
 msgid "CRM-LEAD-.YYYY.-"
@@ -40117,7 +40114,7 @@ msgstr ""
 #. Title of a Module Onboarding
 #: crm/onboarding_step/introduction_to_crm/introduction_to_crm.json
 msgid "Introduction to CRM"
-msgstr ""
+msgstr "Introdução ao Relacionamento com o Cliente"
 
 #. Name of a DocType
 #: manufacturing/onboarding_step/introduction_to_manufacturing/introduction_to_manufacturing.json
@@ -45567,13 +45564,13 @@ msgstr ""
 #. Title of a Module Onboarding
 #: crm/module_onboarding/crm/crm.json
 msgid "Let's Set Up Your CRM."
-msgstr ""
+msgstr "Vamos configurar seu Relacionamento com o Cliente."
 
 #. Step Content of 'CRM' Module Onboarding
 #: crm/module_onboarding/crm/crm.json
 msgctxt "CRM"
 msgid "Let's Set Up Your CRM."
-msgstr ""
+msgstr "Vamos configurar seu Relacionamento com o Cliente."
 
 #. Title of a Module Onboarding
 #: assets/module_onboarding/assets/assets.json
@@ -85900,7 +85897,7 @@ msgstr ""
 #. Success Message of a Module Onboarding
 #: crm/module_onboarding/crm/crm.json
 msgid "The CRM Module is all set up!"
-msgstr ""
+msgstr "O módulo de Relacionamento com o Cliente está todo configurado!"
 
 #: crm/doctype/email_campaign/email_campaign.py:54
 msgid "The Campaign '{0}' already exists for the {1} '{2}'"
