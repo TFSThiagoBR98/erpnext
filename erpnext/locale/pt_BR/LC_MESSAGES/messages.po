@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-08-27 18:33+0000\n"
+"PO-Revision-Date: 2023-08-28 00:37+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -8789,7 +8789,7 @@ msgstr ""
 #. DocType: Appointment:1
 #: crm/doctype/appointment/appointment.json
 msgid "Appointment"
-msgstr "Compromisso"
+msgstr "Contratação"
 
 #. Label of a Link in the CRM Workspace
 #: crm/workspace/crm/crm.json
