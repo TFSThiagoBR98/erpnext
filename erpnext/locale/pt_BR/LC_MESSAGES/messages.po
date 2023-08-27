@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: info@erpnext.com\n"
 "POT-Creation-Date: 2023-07-17 20:16+0000\n"
-"PO-Revision-Date: 2023-08-18 10:07+0000\n"
+"PO-Revision-Date: 2023-08-27 18:13+0000\n"
 "Last-Translator: Weblate Admin <admin@tfs.dev.br>\n"
 "Language-Team: Portuguese (Brazil) <http://localhost:4755/projects/frappe/"
 "erpnext/pt_BR/>\n"
@@ -4508,7 +4508,7 @@ msgstr "Adicionar Ao Carrinho"
 
 #. DocType: Holiday List:1
 msgid "Add to Holidays"
-msgstr "Adicionar Aos Feriados"
+msgstr "Adicionar aos feriados"
 
 #. Label of a Button field in DocType 'Holiday List'
 #: setup/doctype/holiday_list/holiday_list.json
@@ -6032,7 +6032,7 @@ msgstr "Detalhes do Agente"
 
 #. DocType: Incoming Call Handling Schedule:1
 msgid "Agent Group"
-msgstr ""
+msgstr "Grupo de agentes"
 
 #. Label of a Link field in DocType 'Incoming Call Handling Schedule'
 #: telephony/doctype/incoming_call_handling_schedule/incoming_call_handling_schedule.json
@@ -7595,7 +7595,7 @@ msgstr "Alterado De"
 #: templates/form_grid/stock_entry_grid.html:11 templates/pages/order.html:104
 #: templates/pages/rfq.html:46
 msgid "Amount"
-msgstr "Montante"
+msgstr "Valor"
 
 #. Label of a Currency field in DocType 'Advance Taxes and Charges'
 #: accounts/doctype/advance_taxes_and_charges/advance_taxes_and_charges.json
@@ -11958,10 +11958,14 @@ msgstr ""
 #: setup/doctype/holiday_list/holiday_list.js:60
 msgid "Based on your HR Policy, select your leave allocation period's end date"
 msgstr ""
+"Com base em sua Política de RH, selecione a data final do período de "
+"alocação de férias"
 
 #: setup/doctype/holiday_list/holiday_list.js:55
 msgid "Based on your HR Policy, select your leave allocation period's start date"
 msgstr ""
+"Com base em sua Política de RH, selecione a data de início do período de "
+"alocação de férias"
 
 #. DocType: Stock Entry Detail:1
 msgid "Basic Amount"
@@ -36212,11 +36216,11 @@ msgstr ""
 
 #. DocType: Terms and Conditions:1
 msgid "HR"
-msgstr "Rh"
+msgstr "RH"
 
 #. DocType: Company:1
 msgid "HR & Payroll Settings"
-msgstr ""
+msgstr "Configurações de RH e folha de pagamento"
 
 #. Name of a role
 #. DocType: Appointment Booking Settings:1
@@ -36236,7 +36240,7 @@ msgstr "Gerente de RH"
 #: setup/doctype/designation/designation.json setup/doctype/driver/driver.json
 #: setup/doctype/employee/employee.json
 msgid "HR User"
-msgstr "Usuário do Rh"
+msgstr "Usuário do RH"
 
 #. DocType: Driver:1
 msgid "HR-DRI-.YYYY.-"
@@ -36250,13 +36254,13 @@ msgstr "HR-DRI-.YYYY.-"
 
 #. DocType: Employee:1
 msgid "HR-EMP-"
-msgstr "Hr-emp-"
+msgstr "HR-EMP-"
 
 #. Option for a Select field in DocType 'Employee'
 #: setup/doctype/employee/employee.json
 msgctxt "Employee"
 msgid "HR-EMP-"
-msgstr "Hr-emp-"
+msgstr "HR-EMP-"
 
 #. DocType: Item Group:1
 msgid "HTML / Banner that will show on the top of product list."
@@ -72882,7 +72886,6 @@ msgstr "Número da Ordem de Venda"
 
 #. Label of a Link in the ERPNext Integrations Workspace
 #: erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
-#, fuzzy
 msgctxt "S3 Backup Settings"
 msgid "S3 Backup Settings"
 msgstr "Configurações de backup do S3"
@@ -73031,7 +73034,6 @@ msgstr "Log de SMS"
 #. Label of a Link in the ERPNext Integrations Workspace
 #: crm/workspace/crm/crm.json
 #: erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json
-#, fuzzy
 msgctxt "SMS Settings"
 msgid "SMS Settings"
 msgstr "Configurações de SMS"
@@ -83695,7 +83697,7 @@ msgstr ""
 #. DocType: Employee:1
 msgid "System User (login) ID. If set, it will become default for all HR forms."
 msgstr ""
-"Identificação do usuário no sistema (login). Se for marcado, ele vai se "
+"Identificação do Usuário de Sistema (login). Se for marcado, ele vai se "
 "tornar padrão para todos os formulários de RH."
 
 #. Description of a Link field in DocType 'Employee'
@@ -83703,7 +83705,7 @@ msgstr ""
 msgctxt "Employee"
 msgid "System User (login) ID. If set, it will become default for all HR forms."
 msgstr ""
-"Identificação do usuário no sistema (login). Se for marcado, ele vai se "
+"Identificação do Usuário de Sistema (login). Se for marcado, ele vai se "
 "tornar padrão para todos os formulários de RH."
 
 #. DocType: Production Plan:1
